@@ -1,4 +1,4 @@
-# bulala skill repo
+# POC skill repo
 
 This repository is structured as an installable Codex skill repository.
 
@@ -10,14 +10,14 @@ This repository is structured as an installable Codex skill repository.
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills/poc"
-curl -L -sS "https://raw.githubusercontent.com/nobodydufer-droid/bulala/main/skills/poc/SKILL.md" \
+curl -L -sS "https://raw.githubusercontent.com/nobodydufer-droid/POC/main/skills/poc/SKILL.md" \
   -o "${CODEX_HOME:-$HOME/.codex}/skills/poc/SKILL.md"
 ```
 
 ## One-command install
 
 ```bash
-curl -L -sS "https://raw.githubusercontent.com/nobodydufer-droid/bulala/main/install.sh" | bash
+curl -L -sS "https://raw.githubusercontent.com/nobodydufer-droid/POC/main/install.sh" | bash
 ```
 
 ## Verify
@@ -26,4 +26,4 @@ curl -L -sS "https://raw.githubusercontent.com/nobodydufer-droid/bulala/main/ins
 ls -la "${CODEX_HOME:-$HOME/.codex}/skills/poc/SKILL.md"
 ```
 
-Repository name is `bulala`; URLs above are already set to it.
+Repository name is `POC`; URLs above are already set to it.

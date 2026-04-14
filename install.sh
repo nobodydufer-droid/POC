@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_URL="${REPO_URL:-https://raw.githubusercontent.com/nobodydufer-droid/bulala/main}"
+REPO_URL="${REPO_URL:-https://raw.githubusercontent.com/nobodydufer-droid/POC/main}"
 CODEX_HOME_DIR="${CODEX_HOME:-$HOME/.codex}"
 TARGET_DIR="${CODEX_HOME_DIR}/skills/poc"
 TARGET_FILE="${TARGET_DIR}/SKILL.md"
