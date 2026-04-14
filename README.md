@@ -10,14 +10,14 @@ This repository is structured as an installable Codex skill repository.
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills/poc"
-curl -L -sS "https://raw.githubusercontent.com/nobodydufer-droid/weekly-fiat-report/main/skills/poc/SKILL.md" \
+curl -L -sS "https://raw.githubusercontent.com/nobodydufer-droid/bulala/main/skills/poc/SKILL.md" \
   -o "${CODEX_HOME:-$HOME/.codex}/skills/poc/SKILL.md"
 ```
 
 ## One-command install
 
 ```bash
-curl -L -sS "https://raw.githubusercontent.com/nobodydufer-droid/weekly-fiat-report/main/install.sh" | bash
+curl -L -sS "https://raw.githubusercontent.com/nobodydufer-droid/bulala/main/install.sh" | bash
 ```
 
 ## Verify
@@ -26,5 +26,4 @@ curl -L -sS "https://raw.githubusercontent.com/nobodydufer-droid/weekly-fiat-rep
 ls -la "${CODEX_HOME:-$HOME/.codex}/skills/poc/SKILL.md"
 ```
 
-If you rename this repo to `bulala`, replace `weekly-fiat-report` in the URLs above with `bulala`.
-
+Repository name is `bulala`; URLs above are already set to it.
